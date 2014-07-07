@@ -152,8 +152,9 @@
   (bind ((max (slot-value node 'gccxml:max)))
     (when (ends-with #\u max)
       (setf max (subseq max 0 (1- (length max)))))
+    (unless (equal "" max)
     (bind ((count (1+ (parse-integer max))))
-      (format t " :count ~A" count))))
+        (format t " :count ~A" count)))))
 
 (defmethod write-cffi-type ((node gccxml:referencetype))
   (write-cffi-type (type-of node)))
