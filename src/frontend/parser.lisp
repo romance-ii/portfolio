@@ -293,6 +293,8 @@
       ((or (starts-with-subseq "0x" str)
            (starts-with-subseq "#x" str))
        (parse-number:parse-number (concatenate 'string "#x" (subseq (remove-trailing-size-specifiers str) 2 nil))))
+      ((starts-with-subseq "-0x" str)
+       (parse-number:parse-number (concatenate 'string "#x-" (subseq (remove-trailing-size-specifiers str) 3 nil))))
       ((or (char= #\- (elt str 0))
            (digit-char-p (elt str 0)))
        (parse-number:parse-number (remove-trailing-size-specifiers str)))
