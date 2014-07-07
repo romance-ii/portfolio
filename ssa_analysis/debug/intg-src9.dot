@@ -1,5 +1,0 @@
-graph INTG {
-Y -- X1;
-Y -- A;
-X1 -- A;
- }
