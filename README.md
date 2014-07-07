@@ -1,12 +1,13 @@
-## Google Summer of Code 2005 project (google_soc_05)
+Getting started
+===============
 
-This was my project for the Google Summer of Code 2005. 
-It is a tool that automatically generates foreign function interface (FFI) declarations from C++ headers.
-The program is written in Common Lisp. It features:
-- Parsing of an XML representation of C++ programs
-- Lowering of complex C++ semantics into a simpler intermediate representation 
-- Various transformations to generate more Lisp-like bindings from C++ APIs
-- Generation of C-FFI declarations (attempting to be) compatible with the GCC C++ ABI
+To generate the example bindings do the following:
 
-Portions of this code were written by Attila Lendvai, who took over maintainership of the project in 2007. 
+$ cd verrazano/
+$ sbcl --load generate-example-bindings.lisp
 
+For more details look at the generate-example-bindings.lisp file and
+copy/modify it to suite your needs.
+
+For further information see the documents/ directory and the homepage at:
+http://common-lisp.net/project/fetter/
