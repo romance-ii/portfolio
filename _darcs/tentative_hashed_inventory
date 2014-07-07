@@ -1,0 +1,73 @@
+pristine:142e01dddaaa0da41d64d213ea4d1bc54b1b0f9e1c65d876f6f891b69696a586
+Starting with inventory:
+0000006623-a0c7cde57f7440129993af4a0f05922cae9a27c967a027b554376e635f05030e
+[TAG Before flexml refactor
+attila.lendvai@gmail.com**20080519164210] 
+hash: 0000003566-75195e600d2685920a432213afe7b04857ad3dd81c396015d014142e7c038b0d
+[refactor to use flexml document model and generic methods (needs more work)
+attila.lendvai@gmail.com**20071215160121] 
+hash: 0000212623-e6d26451989814cc70644a6fd56faffd9933788b0ab06c5dc6d075f592f7783b
+[updates to the TODO
+attila.lendvai@gmail.com**20071215171130] 
+hash: 0000001300-0bff3f86aac78e0bdc740f4860c04f23dabc1b5b3fa69523ca3fd030e54efc2c
+[added missing flexml.lisp
+attila.lendvai@gmail.com**20071216115851] 
+hash: 0000011356-8af6fdfad04e9e40c2cc1f025c6246833535178c998d2865517d22d7483571a3
+[flexml changes
+attila.lendvai@gmail.com**20080313113731] 
+hash: 0000004616-b103b00699060f5c439bdcc94dfece9112f50c184af1ae5cad35fc84adef2b85
+[Fix virtual calls.
+levente.meszaros@gmail.com**20080313151826] 
+hash: 0000000245-86e18482a41951f9d00ec4c127ed86d54f7d754c6eab742fd5dfd4788bf4b27e
+[Refactor.
+levente.meszaros@gmail.com**20080314172340] 
+hash: 0000041561-fb8c0cbc117239f6b6ff02a7a516f1c88998d8b8067ec0142803f22c7a459535
+[some changes to be able to generate bindings for mozjs
+attila.lendvai@gmail.com**20080515205327] 
+hash: 0000002720-986769c238a5790e5b2b0f916b7aa1d128533ab3e8513fba2289c140532919c2
+[refactor generate-example-bindings.lisp
+attila.lendvai@gmail.com**20080515205421] 
+hash: 0000011997-a39580c66b879ef7d4563132e664ae7404bc69479e6708252ee8b23a4356a438
+[merge .asd conflicts
+attila.lendvai@gmail.com**20080519164308] 
+hash: 0000002159-1cef464ae5bcc3f4e8821213c51bf3ce7564ac32f532951f1d7e0b8b0f60f49a
+[updated TODO
+attila.lendvai@gmail.com**20080519164501] 
+hash: 0000000805-dc1b4951bbd3f5bd80154e754531d2c80b8fb2970ea8e762fcab60fe40caf89b
+[added missing closer-mop dependency to the .asd
+attila.lendvai@gmail.com**20080730080929] 
+hash: 0000000494-15338ac82e3824d03464b14da31def1107e887a7016a6b1f4bc9480108c43a23
+[todo
+attila.lendvai@gmail.com**20080730080954] 
+hash: 0000000169-daf9aff56c4b1e8892933f2fe9d9d32178479a1961fe8fe822a1b9d3a4959068
+[fix parsing on ccl: use subtypep to detect slot types in flexml
+attila.lendvai@gmail.com**20080808084134] 
+hash: 0000000380-b1b1e1e7b465638332fe72205cc92fab775329153f7e8be0d1290edb44abe0e2
+[added :gccxml-flags "`pkg-config --cflags libgvc`" for the graphviz generation (needed on ubuntu 8.04)
+attila.lendvai@gmail.com**20080808084147] 
+hash: 0000000235-eefc160107e154f1ead8857989c72491e42efa138bc69c77338a609ce2117c50
+[added :debug t/nil support for example binding generation
+attila.lendvai@gmail.com**20101223164153
+ Ignore-this: 596811792ba027fff54c0d344bc184c5
+] 
+hash: 0000000753-b7cd1ad0d352e4f3acee39c06e10a9d0e696358f6993c19f9cba8ac3b25b7807
+[added libarchive entry for examples
+attila.lendvai@gmail.com**20101223164240
+ Ignore-this: 174d1e2dbacc39c50656e406c754d2fd
+] 
+hash: 0000000363-969959f15bbac0ee64eeb92e65a8cf17aa803950904b508ed6feb86327537b0a
+[kludge generation of functiontype to emit a :pointer
+attila.lendvai@gmail.com**20101223164305
+ Ignore-this: 4448d2dc1a24bd920c62d605d4deebe
+] 
+hash: 0000000297-0adb7aff26209503c82e594d1835994088516d64745006e65c4e5ff53b5fd2dd
+[use :skip-ellipsis feature of do-arguments-of-function
+attila.lendvai@gmail.com**20101223164328
+ Ignore-this: 11824e65cfe9535e3c3984dc1ace82e6
+] 
+hash: 0000000464-538346e46009ecf308c1cefc79ca0e9ee000cab52c3b283ed11491c8a14eb88a
+[.asd: move the :static-file "generate-example-bindings.lisp" entry to its proper position
+attila.lendvai@gmail.com**20110602144949
+ Ignore-this: cd90e6bb5f4544749e33f2109811176d
+] 
+hash: 0000000480-19f5b66e9d19615460b64bfc8540ed180e639d5569d455617e3108694b386ce0
